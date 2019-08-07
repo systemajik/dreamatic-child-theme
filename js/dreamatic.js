@@ -1,5 +1,5 @@
 //image rollover hover
-$(document).ready(function(){
+jQuery(document).ready(function(){
 
   $('#dr-roll-bottom').hover(function() {
      $('#dr-roll-top').fadeIn("fast");
