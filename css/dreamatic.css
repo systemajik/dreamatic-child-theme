@@ -7,19 +7,12 @@
   margin:0 auto;
 }
 
-.dr-roll-bottom {
-  opacity:1;
-}
-
-.dr-roll-top {
+#dr-roll-bottom {
   position:absolute;
-  opacity:0;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  z-index:1;
 }
 
-.dr-roll-top:hover {
-  opacity:1;
+#dr-roll-top {
+  position:absolute;
+  z-index:-1;
 }
