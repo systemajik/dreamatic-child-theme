@@ -18,9 +18,12 @@ function dr_fusion_image_rollover($atts, $content = null) {
   ob_start(); ?>
 
 <div class="dr-roll-container">
-    <img class="dr-roll-top" src="<?php echo $image1; ?>" height="200" width="200" />
-    <img class="dr-roll-bottom" src="<?php echo $image2; ?>" height="200" width="200" />
+  <img class="dr-roll-top" src="<?php echo $image1; ?>" />
+  <img class="dr-roll-bottom" src="<?php echo $image2; ?>" />
 </div>
+
+
+
 
   <?php return ob_get_clean();
   //end output buffer

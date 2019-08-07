@@ -2,8 +2,8 @@
 
 .dr-roll-container {
   position:relative;
-  width:100%;
-  min-height:120px;
+  height:50px;
+  width:50px;
   margin:0 auto;
 }
 
@@ -16,6 +16,6 @@
   transition: opacity 1s ease-in-out;
 }
 
-.dr-roll-container img.dr-roll-top:hover {
+.dr-roll-container img.dr-roll-bottom:hover {
   opacity:0;
 }
