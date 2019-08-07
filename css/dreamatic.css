@@ -1,0 +1,21 @@
+/* image rollover box */
+
+.dr-roll-container {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+.dr-roll-conrainer img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dr-roll-conrainer.front:hover {
+  opacity:0;
+}

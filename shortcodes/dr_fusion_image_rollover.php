@@ -6,7 +6,8 @@ function dr_fusion_image_rollover($atts, $content = null) {
   
   //1. create attributes
   extract(shortcode_atts([
-		'text' =>''
+    'image1' =>'',
+    'image2' =>''
   ], $atts));
   
   //2. set additional variables if required
@@ -16,12 +17,10 @@ function dr_fusion_image_rollover($atts, $content = null) {
   //3. begin output buffer (paste code and variables in here)
   ob_start(); ?>
 
-  <p><?php echo $text; ?></p>
-
-
-
-
-
+  <div class="dr-roll-container">
+      <img class="dr-front" src="<?php echo $image1; ?>"/>
+      <img class="dr-back" src="<?php echo $image2; ?>"/>
+  </div>
 
   <?php return ob_get_clean();
   //end output buffer
@@ -45,12 +44,19 @@ function dr_register_fusion_image_rollover() {
           'allow_generator' => true,
           'params'          => array(
               array(
-                  'type'        => 'textfield',
-                  'heading'     => esc_attr__( 'Text Content', 'fusion-builder' ),
-                  'description' => esc_attr__( 'Enter some content for this text box.', 'fusion-builder' ),
-                  'param_name'  => 'text',
+                  'type'        => 'attach_image',
+                  'heading'     => esc_attr__( 'Images', 'fusion-builder' ),
+                  'description' => esc_attr__( 'Front image', 'fusion-builder' ),
+                  'param_name'  => 'image1',
                   'value'       => '',
               ),
+              array(
+                'type'        => 'attach_image',
+                'heading'     => esc_attr__( 'Images', 'fusion-builder' ),
+                'description' => esc_attr__( 'Front image', 'fusion-builder' ),
+                'param_name'  => 'image2',
+                'value'       => '',
+            ),
           ),
       ) 
   );
