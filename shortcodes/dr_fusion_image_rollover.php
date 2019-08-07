@@ -44,14 +44,14 @@ function dr_register_fusion_image_rollover() {
           'allow_generator' => true,
           'params'          => array(
               array(
-                  'type'        => 'attach_image',
+                  'type'        => 'upload',
                   'heading'     => esc_attr__( 'Images', 'fusion-builder' ),
                   'description' => esc_attr__( 'Front image', 'fusion-builder' ),
                   'param_name'  => 'image1',
                   'value'       => '',
               ),
               array(
-                'type'        => 'attach_image',
+                'type'        => 'upload',
                 'heading'     => esc_attr__( 'Images', 'fusion-builder' ),
                 'description' => esc_attr__( 'Front image', 'fusion-builder' ),
                 'param_name'  => 'image2',
