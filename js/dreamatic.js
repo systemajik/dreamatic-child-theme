@@ -1,13 +1,13 @@
 //image rollover hover
 jQuery(document).ready(function(){
 
-  $('#dr-roll-bottom').hover(function() {
-     $('#dr-roll-top').fadeIn("fast");
-     $('#dr-roll-bottom').fadeOut("fast");
+  jQuery('#dr-roll-bottom').hover(function() {
+    jQuery('#dr-roll-top').fadeIn("fast");
+    jQuery('#dr-roll-bottom').fadeOut("fast");
   });
 
-$('#dr-roll-top').mouseout(function() {
-     $('#top').fadeOut("slow");
-     $('#dr-roll-bottom').fadeIn("slow");
+  jQuery('#dr-roll-top').mouseout(function() {
+    jQuery('#top').fadeOut("slow");
+    jQuery('#dr-roll-bottom').fadeIn("slow");
   });
 });
