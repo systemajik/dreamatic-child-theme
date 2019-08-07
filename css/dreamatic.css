@@ -2,19 +2,18 @@
 
 .dr-roll-container {
   position:relative;
-  height:auto;
-  min-height:100px;
-  width:100%;
+  height:800px;
+  width:800px;
   margin:0 auto;
 }
 
 .dr-roll-container img {
   position:absolute;
   left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .dr-roll-container img.dr-roll-bottom:hover {
