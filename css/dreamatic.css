@@ -1,16 +1,21 @@
 /* image rollover box */
 
 .dr-roll-container {
-  height:auto;
+  position:relative;
   width:100%;
   min-height:120px;
   margin:0 auto;
 }
 
-#dr-roll-bottom {
-  position:relative;
+.dr-roll-container img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
-#dr-roll-top {
-  position:absolute;
+.dr-roll-container img.dr-roll-top:hover {
+  opacity:0;
 }
