@@ -3,7 +3,6 @@
 .dr-roll-container {
   position:relative;
   height:auto;
-  min-height:120px;
   width:100%;
   margin:0 auto;
 }
