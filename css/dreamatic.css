@@ -1,18 +1,16 @@
 /* image rollover box */
 
 .dr-roll-container {
-  position:relative;
   height:auto;
   width:100%;
+  min-height:120px;
   margin:0 auto;
 }
 
 #dr-roll-bottom {
-  position:absolute;
-  z-index:1;
+  position:relative;
 }
 
 #dr-roll-top {
   position:absolute;
-  z-index:-1;
 }
