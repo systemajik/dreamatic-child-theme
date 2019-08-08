@@ -27,12 +27,16 @@ strong.dr {
 .dr-footer {
   background-image: url("http://staging.dreamatic.digital/wp-content/uploads/2019/08/wavy-footer.png");
   width:100%;
-  height:300px;
+  height:400px;
   position:relative;
   text-align:center;
-  padding-top:100px;
+  padding-top:120px;
   background-size:100%;
   background-repeat:no-repeat;
+}
+
+.dr-footer p {
+  color: #ffffff;
 }
 
 .dr-footer-cta {
@@ -40,6 +44,5 @@ strong.dr {
   font-size: 50px;
   color: #ffffff;
   text-transform: uppercase;
-  position: absolute;
   text-align: center;
 }
