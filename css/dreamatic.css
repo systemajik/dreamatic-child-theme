@@ -34,6 +34,8 @@ strong.dr {
   position:relative;
   text-align:center;
   padding-top:100px;
+  background-size:100%;
+  background-repeat:no-repeat;
 }
 
 .dr-footer-cta {
