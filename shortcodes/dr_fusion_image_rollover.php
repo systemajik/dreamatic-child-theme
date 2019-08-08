@@ -42,7 +42,7 @@ function dr_register_fusion_image_rollover() {
       array(
           'name'            => esc_attr__( 'Image Rollover', 'fusion-builder' ),
           'shortcode'       => 'dr_fusion_image_rollover',
-          'icon'            => 'fusiona-font',
+          'icon'       => 'fusiona-image',
           'allow_generator' => true,
           'params'          => array(
               array(
