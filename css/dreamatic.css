@@ -48,6 +48,12 @@ strong.dr {
   text-align: center;
 }
 
+.dr-copyright {
+  text-align:center;
+  position:absolute;
+  bottom: 5px;
+}
+
 @media only screen and (max-width: 1366px) {
 
   .dr-footer-text {
