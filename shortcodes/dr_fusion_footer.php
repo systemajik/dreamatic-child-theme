@@ -11,7 +11,7 @@ function dr_fusion_footer($atts, $content = null) {
     'cta' =>'',
     'link' =>'',
     'footer' =>'',
-    'footer_text' =>''
+    'footertext' =>''
   ], $atts));
   
   //2. set additional variables if required
@@ -30,7 +30,7 @@ function dr_fusion_footer($atts, $content = null) {
       <span class="fusion-button-text"><?php echo $cta; ?></span>
     </a>
     <?php if($footer === yes) :?>>
-      <p class="dr-footer"><?php echo $footer_text; ?></p>
+      <p class="dr-footer"><?php echo $footertext; ?></p>
     <?php endif; ?>
   </div>
 
@@ -98,7 +98,7 @@ function dr_register_fusion_footer() {
                 'type'        => 'textfield',
                 'heading'     => esc_attr__( 'Footer Text', 'fusion-builder' ),
                 'description' => esc_attr__( 'Footer content', 'fusion-builder' ),
-                'param_name'  => 'footer_text',
+                'param_name'  => 'footertext',
                 'value'       => '',
               ),
 				    ),
