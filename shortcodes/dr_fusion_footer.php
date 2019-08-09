@@ -27,6 +27,16 @@ function dr_fusion_footer($atts, $content = null) {
     <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
       <span class="fusion-button-text"><?php echo $cta; ?></span>
     </a>
+    <?php
+				/**
+				 * Footer Content (Copyright area) avada_footer_copyright_content hook.
+				 *
+				 * @hooked avada_render_footer_copyright_notice - 10 (outputs the HTML for the Theme Options footer copyright text)
+				 * @hooked avada_render_footer_social_icons - 15 (outputs the HTML for the footer social icons)..
+				 */
+				do_action( 'avada_footer_copyright_content' );
+				?>
+
   </div>
 
 
