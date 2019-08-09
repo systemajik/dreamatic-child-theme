@@ -36,7 +36,7 @@ strong.dr {
 
 .dr-footer-text {
   position:absolute;
-  top:30%;
+  bottom:30%;
   width:100%;
 }
 
@@ -46,4 +46,46 @@ strong.dr {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+}
+
+@media only screen and (max-width: 1366px) {
+
+  .dr-footer-text {
+    position:absolute;
+    bottom:15%;
+    width:100%;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .dr-footer-text {
+    position:absolute;
+    bottom:15%;
+    width:100%;
+  }
+
+  .dr-footer-cta {
+    font-size:28px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .dr-footer-text {
+    position:absolute;
+    bottom:15%;
+    width:100%;
+  }
+
+  .dr-footer-cta {
+    font-size:28px;
+  }
+
+  .dr-footer-sub {
+    margin-bottom: 5px;
+  }
+
 }
