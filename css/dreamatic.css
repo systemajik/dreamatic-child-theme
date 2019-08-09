@@ -36,13 +36,13 @@ strong.dr {
 
 .dr-footer-text {
   position:absolute;
-  top:50px;
+  top:30%;
   width:100%;
 }
 
 .dr-footer-cta {
-  font-family: "Noah Extra Bold";
-  font-size: 50px;
+  font-family: "Noah Bold";
+  font-size: 44px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
