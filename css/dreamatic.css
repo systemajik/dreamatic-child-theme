@@ -34,14 +34,13 @@ strong.dr {
   color: #ffffff;
 }
 
-.dr-footer span, .dr-footer a, .dr-footer p {
+.dr-footer-text {
   position:absolute;
-
+  top:50px;
+  width:100%;
 }
 
 .dr-footer-cta {
-  top:50px;
-  width:100%;
   font-family: "Noah Extra Bold";
   font-size: 50px;
   color: #ffffff;
