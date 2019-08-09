@@ -100,11 +100,10 @@ function dr_register_fusion_footer() {
             'description' => esc_attr__( 'Footer content', 'fusion-builder' ),
             'param_name'  => 'footer_text',
             'value'       => '',
-
           ),
 				),
-          ),
-      ) 
+      ),
+    ) 
   );
   }
   add_action( 'fusion_builder_before_init', 'dr_register_fusion_footer' );
