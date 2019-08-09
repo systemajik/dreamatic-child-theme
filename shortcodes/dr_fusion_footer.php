@@ -20,6 +20,7 @@ function dr_fusion_footer($atts, $content = null) {
   ob_start(); ?>
 
 <div class="dr-footer">
+  <img src="/wp-content/uploads/2019/08/wavy-footer.png" />
   <span class="dr-footer-cta"><?php echo $title; ?></span>
   <p><?php echo $subtitle; ?></p>
   <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
