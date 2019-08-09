@@ -70,41 +70,40 @@ function dr_register_fusion_footer() {
                 'description' => esc_attr__( 'Subtitle text', 'fusion-builder' ),
                 'param_name'  => 'subtitle',
                 'value'       => '',
-            ),
-            array(
-              'type'        => 'textfield',
-              'heading'     => esc_attr__( 'Button Text', 'fusion-builder' ),
-              'description' => esc_attr__( 'Button text', 'fusion-builder' ),
-              'param_name'  => 'cta',
-              'value'       => '',
-          ),
-          array(
-            'type'        => 'textfield',
-            'heading'     => esc_attr__( 'Button Link', 'fusion-builder' ),
-            'description' => esc_attr__( 'URL', 'fusion-builder' ),
-            'param_name'  => 'link',
-            'value'       => '',
-        ),
-        array(
-					'type'        => 'radio_button_set',
-					'heading'     => esc_attr__( 'Footer On', 'fusion-builder' ),
-					'description' => esc_attr__( 'Add footer', 'fusion-builder' ),
-					'param_name'  => 'footer',
-					'value'       => array(
-						'yes'   => esc_attr__( 'Yes', 'fusion-builder' ),
-						'no' => esc_attr__( 'No', 'fusion-builder' ),
-          ),
-          array(
-            'type'        => 'textfield',
-            'heading'     => esc_attr__( 'Footer Text', 'fusion-builder' ),
-            'description' => esc_attr__( 'Footer content', 'fusion-builder' ),
-            'param_name'  => 'footer_text',
-            'value'       => '',
-          ),
-				),
-      ),
-    ) 
-  );
+              ),
+              array(
+                'type'        => 'textfield',
+                'heading'     => esc_attr__( 'Button Text', 'fusion-builder' ),
+                'description' => esc_attr__( 'Button text', 'fusion-builder' ),
+                'param_name'  => 'cta',
+                'value'       => '',
+              ),
+              array(
+                'type'        => 'textfield',
+                'heading'     => esc_attr__( 'Button Link', 'fusion-builder' ),
+                'description' => esc_attr__( 'URL', 'fusion-builder' ),
+                'param_name'  => 'link',
+                'value'       => '',
+              ),
+              array(
+                'type'        => 'radio_button_set',
+                'heading'     => esc_attr__( 'Footer On', 'fusion-builder' ),
+                'description' => esc_attr__( 'Add footer', 'fusion-builder' ),
+                'param_name'  => 'footer',
+                'value'       => array(
+                  'yes'   => esc_attr__( 'Yes', 'fusion-builder' ),
+                  'no' => esc_attr__( 'No', 'fusion-builder' ),
+              ),
+              array(
+                'type'        => 'textfield',
+                'heading'     => esc_attr__( 'Footer Text', 'fusion-builder' ),
+                'description' => esc_attr__( 'Footer content', 'fusion-builder' ),
+                'param_name'  => 'footer_text',
+                'value'       => '',
+              ),
+				    ),
+        )
+    );
   }
   add_action( 'fusion_builder_before_init', 'dr_register_fusion_footer' );
 
