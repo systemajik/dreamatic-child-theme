@@ -9,7 +9,9 @@ function dr_fusion_footer($atts, $content = null) {
     'title' =>'',
     'subtitle' =>'',
     'cta' =>'',
-    'link' =>''
+    'link' =>'',
+    'footer' =>'',
+    'footer_text' =>''
   ], $atts));
   
   //2. set additional variables if required
@@ -27,18 +29,9 @@ function dr_fusion_footer($atts, $content = null) {
     <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
       <span class="fusion-button-text"><?php echo $cta; ?></span>
     </a>
-    <div class="dr-copyright">
-    <?php
-				/**
-				 * Footer Content (Copyright area) avada_footer_copyright_content hook.
-				 *
-				 * @hooked avada_render_footer_copyright_notice - 10 (outputs the HTML for the Theme Options footer copyright text)
-				 * @hooked avada_render_footer_social_icons - 15 (outputs the HTML for the footer social icons)..
-				 */
-				do_action( 'avada_footer_copyright_content' );
-        ?>
-      </div>
-
+    <?php if($footer === yes) :?>>
+      <p class="dr-footer"><?php echo $footer_text; ?></p>
+    <?php endif; ?>
   </div>
 
 
@@ -92,6 +85,22 @@ function dr_register_fusion_footer() {
             'param_name'  => 'link',
             'value'       => '',
         ),
+        array(
+					'type'        => 'radio_button_set',
+					'heading'     => esc_attr__( 'Footer On', 'fusion-builder' ),
+					'description' => esc_attr__( 'Add footer', 'fusion-builder' ),
+					'param_name'  => 'footer',
+					'value'       => array(
+						'yes'   => esc_attr__( 'Yes', 'fusion-builder' ),
+						'no' => esc_attr__( 'No', 'fusion-builder' ),
+          ),
+          array(
+            'type'        => 'textfield',
+            'heading'     => esc_attr__( 'Footer Text', 'fusion-builder' ),
+            'description' => esc_attr__( 'Footer content', 'fusion-builder' ),
+            'param_name'  => 'footer_text',
+          ),
+				),
           ),
       ) 
   );
