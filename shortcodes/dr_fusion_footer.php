@@ -93,6 +93,7 @@ function dr_register_fusion_footer() {
                 'value'       => array(
                   'yes'   => esc_attr__( 'Yes', 'fusion-builder' ),
                   'no' => esc_attr__( 'No', 'fusion-builder' ),
+                ),
               ),
               array(
                 'type'        => 'textfield',
@@ -102,8 +103,7 @@ function dr_register_fusion_footer() {
                 'value'       => '',
               ),
 				    ),
-          ),
-        )
+          )
     );
   }
 
