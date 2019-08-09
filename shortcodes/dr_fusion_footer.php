@@ -99,6 +99,8 @@ function dr_register_fusion_footer() {
             'heading'     => esc_attr__( 'Footer Text', 'fusion-builder' ),
             'description' => esc_attr__( 'Footer content', 'fusion-builder' ),
             'param_name'  => 'footer_text',
+            'value'       => '',
+
           ),
 				),
           ),
