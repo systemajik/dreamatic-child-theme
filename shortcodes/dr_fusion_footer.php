@@ -16,7 +16,7 @@ function dr_fusion_footer($atts, $content = null) {
 
   //end variables
 
-  //3. begin output buffer (paste code and variables in here)
+  //3. begin output buffer (paste code and variables in here )
   ob_start(); ?>
 
 <div class="dr-footer">
@@ -26,6 +26,7 @@ function dr_fusion_footer($atts, $content = null) {
   <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
     <span class="fusion-button-text"><?php echo $cta; ?></span>
   </a>
+  
 </div>
 
   <?php return ob_get_clean();
