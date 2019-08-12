@@ -57,12 +57,12 @@ strong.dr {
 
 /*special header underline*/
 
-h2.dr-underline {
+.fusion-text h2.dr-underline {
   position:relative;
   display:inline-block;
 }
 
-h2.dr-underline::after {
+.fusion-text h2.dr-underline::after {
   content: "";
   position: absolute;
   width: 100%;
