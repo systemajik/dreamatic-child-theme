@@ -57,12 +57,12 @@ strong.dr {
 
 /*special header underline*/
 
-h1.dr-underline {
+h2.dr-underline {
   position:relative;
   display:inline-block;
 }
 
-h1.dr-underline::after {
+h2.dr-underline::after {
   content: "";
   position: absolute;
   width: 100%;
