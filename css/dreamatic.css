@@ -76,6 +76,13 @@ strong.dr {
   transform:translate(5px, -3px)
 }
 
+/*image offsetter*/
+
+.image-offset {
+  transform:translate(-30px);
+}
+
+
 
 @media only screen and (max-width: 1366px) {
 
