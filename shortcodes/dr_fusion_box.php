@@ -8,7 +8,8 @@ function dr_fusion_box($atts, $content = null) {
   extract(shortcode_atts([
     'title' =>'',
     'description' =>'',
-    'img' =>''
+    'img' =>'',
+    'underline' => ''
   ], $atts));
   
   //2. set additional variables if required
@@ -20,10 +21,9 @@ function dr_fusion_box($atts, $content = null) {
 
 <div class="dr-box">
   <div class="dr-box-icon"><img src="<?php echo $img; ?>"/></div>
-  <p class="dr-box-title"><?php echo $title; ?></p>
+  <p class="dr-box-title-<?php echo $underline; ?>"><?php echo $title; ?></p>
   <p class="dr-box-description"><?php echo $description; ?></p>  
 </div>
-
 
   <?php return ob_get_clean();
   //end output buffer
@@ -52,6 +52,21 @@ function dr_register_fusion_box() {
                   'description' => esc_attr__( 'Title', 'fusion-builder' ),
                   'param_name'  => 'title',
                   'value'       => '',
+              ),
+              array(
+                'type'        => 'radio_button_set',
+                'heading'     => esc_attr__( 'Underline colour', 'fusion-builder' ),
+                'description' => esc_attr__( 'Select underline colour.', 'fusion-builder' ),
+                'param_name'  => 'underline',
+                'value'       => array(
+                  'teal' => esc_attr__( 'Teal', 'fusion-builder' ),
+                  'amethyst'   => esc_attr__( 'Amethyst', 'fusion-builder' ),
+                  'amber'   => esc_attr__( 'Amber', 'fusion-builder' ),
+                  'red'   => esc_attr__( 'Red', 'fusion-builder' ),
+                  'blue'   => esc_attr__( 'Blue', 'fusion-builder' ),
+                  'green'   => esc_attr__( 'Green', 'fusion-builder' ),
+                ),
+                'default'     => 'teal',
               ),
               array(
                 'type'        => 'textfield',
