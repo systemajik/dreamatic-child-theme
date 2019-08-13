@@ -207,7 +207,7 @@ strong.dr {
   display:inline-block;
 }
 
-.fusion-text .dr-box-title::after {
+.dr-box-title p::after {
   content: "";
   position: absolute;
   width: 100%;
