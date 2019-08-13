@@ -169,6 +169,9 @@ strong.dr {
     font-size: 32px!important;
   }
 
+  .dr-profile::after {
+    width:100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
