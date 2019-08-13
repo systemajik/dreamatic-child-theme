@@ -86,10 +86,9 @@ strong.dr {
 .dr-profile {
   border:1px solid #d6d6d6;
   border-radius:20px;
-  height:300px;
-  width:720px;
   padding: 20px;
   margin-top: 50px;
+  margin-right: 50px;
   position:relative;
   background-color:#ffffff;
   text-align:center;
