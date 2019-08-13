@@ -67,7 +67,7 @@ function dr_register_fusion_profile() {
                 'value'       => '',
               ),
               array(
-                'type'        => 'textfield',
+                'type'        => 'tinymce',
                 'heading'     => esc_attr__( 'Description', 'fusion-builder' ),
                 'description' => esc_attr__( 'Short profile description', 'fusion-builder' ),
                 'param_name'  => 'description',
