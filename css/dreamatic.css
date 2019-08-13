@@ -145,6 +145,15 @@ strong.dr {
   right:-80px;
 }
 
+.dr-profile-img-left img {
+  z-index:2;
+  height:200px;
+  width:200px;
+  position:absolute;
+  top:-100px;
+  right:-80px;
+}
+
 .dr-speech img {
   z-index:3;
   height:100px;
