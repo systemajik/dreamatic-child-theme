@@ -207,7 +207,7 @@ strong.dr {
   display:inline-block;
 }
 
-.dr-box-title p::after {
+.dr-box .dr-box-title p::after {
   content: "";
   position: absolute;
   width: 100%;
