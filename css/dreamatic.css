@@ -206,7 +206,7 @@ strong.dr {
   position:relative;
 }
 
-.dr-underline::after {
+.dr-box-title::after {
   content: "";
   position: absolute;
   width: 100%;
