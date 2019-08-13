@@ -10,8 +10,7 @@ define( 'DR_DEV_MODE', true );
 require_once(__DIR__ . '/shortcodes/dr_fusion_image_rollover.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_footer.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_profile.php');
-
-
+require_once(__DIR__ . '/shortcodes/dr_fusion_box.php');
 
 //register and enqueue additional styles and scripts
 
