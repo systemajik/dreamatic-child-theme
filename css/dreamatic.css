@@ -178,7 +178,7 @@ strong.dr {
   -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
   -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
   box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
-  
+
 }
 
 .dr-box-icon img {
@@ -198,6 +198,25 @@ strong.dr {
     right: -20px;
     opacity: 0.8;
     border-radius:25px;
+}
+
+.dr-box-title {
+  font-family:"Noah Bold";
+  font-size:22px;
+  position:relative;
+}
+
+.dr-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 191, 179, 0.25);
+  left: 0;
+  bottom: 0;
+  height: .45em;
+  z-index: -1;
+  border-radius:15px;
+  transform:translate(5px, -3px)
 }
 
 /*responsive adjustments*/
