@@ -151,7 +151,7 @@ strong.dr {
   width:200px;
   position:absolute;
   top:-100px;
-  right:-80px;
+  left:-80px;
 }
 
 .dr-speech img {
@@ -167,7 +167,7 @@ strong.dr {
   height:100px;
   width:100px;
   position:absolute;
-  left:15px;
+  right:15px;
   top:-50px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
