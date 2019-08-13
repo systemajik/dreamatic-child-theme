@@ -111,6 +111,20 @@ strong.dr {
 
 }
 
+.dr-profile-left::after {
+  content: "";
+  width: 720px;
+  height: 300px;
+  background-image: url("http://staging.dreamatic.digital/wp-content/uploads/2019/08/profile-background.png");
+  background-size:cover;
+  position: absolute;
+  z-index:-1;
+  bottom:-30px;
+  left: -30px;
+  opacity: 0.8;
+
+}
+
 .dr-profile-title {
   font-family:"Noah Bold";
   font-size:24px;
@@ -138,6 +152,20 @@ strong.dr {
   position:absolute;
   left:15px;
   top:-50px;
+}
+.dr-speech-right img {
+  z-index:3;
+  height:100px;
+  width:100px;
+  position:absolute;
+  right:15px;
+  top:-50px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 /*responsive adjustments*/

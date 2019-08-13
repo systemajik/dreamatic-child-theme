@@ -6,6 +6,7 @@ function dr_fusion_profile($atts, $content = null) {
   
   //1. create attributes
   extract(shortcode_atts([
+    'orientation' =>'',
     'name' =>'',
     'role' =>'',
     'description' =>'',
@@ -26,9 +27,9 @@ function dr_fusion_profile($atts, $content = null) {
 
       <p><?php echo $description; ?></p>
 
-    <div class="dr-profile-img"><img src="<?php echo $img; ?>"/></div>
+    <div class="dr-profile-img<?php if($orientation === 'left') { echo "-left"; } ?>"><img src="<?php echo $img; ?>"/></div>
 
-    <div class="dr-speech"><img src="http://staging.dreamatic.digital/wp-content/uploads/2019/08/speech-marks.png"/></div>
+    <div class="dr-speech<?php if($orientation === 'left') { echo "-left"; } ?>"><img src="http://staging.dreamatic.digital/wp-content/uploads/2019/08/speech-marks.png"/></div>
 </div>
 
   <?php return ob_get_clean();
@@ -52,6 +53,17 @@ function dr_register_fusion_profile() {
           'icon'       => 'fusiona-newspaper',
           'allow_generator' => true,
           'params'          => array(
+              array(
+              'type'        => 'radio_button_set',
+              'heading'     => esc_attr__( 'Orientation', 'fusion-builder' ),
+              'description' => esc_attr__( 'Choose left or right orientation.', 'fusion-builder' ),
+              'param_name'  => 'orientation',
+              'value'       => array(
+                'left' => esc_attr__( 'Left', 'fusion-builder' ),
+                'right'   => esc_attr__( 'Right', 'fusion-builder' ),
+              ),
+              'default'     => 'left',
+            ),
               array(
                   'type'        => 'textfield',
                   'heading'     => esc_attr__( 'Name', 'fusion-builder' ),
