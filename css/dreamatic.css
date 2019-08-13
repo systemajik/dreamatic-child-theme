@@ -54,7 +54,6 @@ strong.dr {
   bottom: 5px;
 }
 
-
 /*special header underline*/
 
 .fusion-text h2.dr-underline {
@@ -82,6 +81,67 @@ strong.dr {
   transform:translate(-30%);
 }
 
+/*profile*/
+
+.dr-profile {
+  border:1px solid #d6d6d6;
+  border-radius:20px;
+  height:300px;
+  width:720px;
+  padding: 20px;
+  margin-top: 50px;
+  position:relative;
+  background-color:#ffffff;
+  text-align:center;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+}
+
+.dr-profile::after {
+    content: "";
+    width: 720px;
+    height: 300px;
+    background-image: url("http://staging.dreamatic.digital/wp-content/uploads/2019/08/profile-background.png");
+    background-size:cover;
+    position: absolute;
+    z-index:-1;
+    bottom:-30px;
+    right: -30px;
+    opacity: 0.8;
+
+}
+
+.dr-profile-title {
+  font-family:"Noah Bold";
+  font-size:24px;
+  color:#00BFB3;
+  text-transform:uppercase;
+}
+.dr-profile-subtitle {
+  font-family:"Noah Bold";
+  font-size:22px;
+}
+
+.dr-profile-img img {
+  z-index:2;
+  height:200px;
+  width:200px;
+  position:absolute;
+  top:-100px;
+  right:-80px;
+}
+
+.dr-speech img {
+  z-index:3;
+  height:100px;
+  width:100px;
+  position:absolute;
+  left:15px;
+  top:-50px;
+}
+
+/*responsive adjustments*/
 
 
 @media only screen and (max-width: 1366px) {
