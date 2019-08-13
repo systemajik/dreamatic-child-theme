@@ -204,9 +204,10 @@ strong.dr {
   font-family:"Noah Bold";
   font-size:22px;
   position:relative;
+  display:inline-block;
 }
 
-.dr-box-title::after {
+.fusion-text .dr-box-title::after {
   content: "";
   position: absolute;
   width: 100%;
