@@ -20,7 +20,7 @@ function dr_fusion_profile($atts, $content = null) {
   //3. begin output buffer (paste code and variables in here)
   ob_start(); ?>
 
-<div class="dr-profile<?php if($orientation === 'left') { echo "-left"; } ?>">
+<div class="dr-profile">
 
       <p class="dr-profile-title"><?php echo $name; ?></p>
       <p class="dr-profile-subtitle"><?php echo $role; ?></p>
