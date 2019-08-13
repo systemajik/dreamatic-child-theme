@@ -167,7 +167,7 @@ strong.dr {
   height:100px;
   width:100px;
   position:absolute;
-  right:15px;
+  left:15px;
   top:-50px;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
