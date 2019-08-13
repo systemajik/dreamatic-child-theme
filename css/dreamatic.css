@@ -200,7 +200,7 @@ strong.dr {
     border-radius:25px;
 }
 
-p.dr-box-title {
+.dr-box-title-teal, .dr-box-title-amethyst, .dr-box-title-amber, .dr-box-title-red, .dr-box-title-blue, .dr-box-title-green {
   font-family:"Noah Bold";
   font-size:22px;
   position:relative;
