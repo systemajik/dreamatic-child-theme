@@ -145,7 +145,7 @@ strong.dr {
   right:-80px;
 }
 
-.dr-profile-img-left, .dr-profile-img-left img {
+.dr-profile-img-left img {
   z-index:2;
   height:200px;
   width:200px;
@@ -162,7 +162,7 @@ strong.dr {
   left:15px;
   top:-50px;
 }
-.dr-speech-left, .dr-speech-left img {
+.dr-speech-left img {
   z-index:3;
   height:100px;
   width:100px;
