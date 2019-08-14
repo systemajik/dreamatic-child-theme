@@ -21,7 +21,8 @@ function dr_fusion_testimonial_box($atts, $content = null) {
 <div class="dr-testimonial-box">
   <div class="dr-testimonial-box-text">
     <p><?php echo $text; ?></p>
-    <p class="dr-testimonial-title"><?php echo $title; ?></p>  
+    <p class="dr-testimonial-title"><?php echo $title; ?></p>
+    <div class="dr-testimonial-speech"><img src="http://staging.dreamatic.digital/wp-content/uploads/2019/08/speech-marks.png"/></div>
   </div>
   <div class="dr-testimonial-img"><img src="<?php echo $img; ?>"/></div>
 </div>

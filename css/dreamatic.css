@@ -366,9 +366,13 @@ strong.dr {
   margin:15px;
 }
 
-.dr-number-img img {
-  width:190px;
-  height:190px;
+.dr-testimonial-speech img {
+  z-index:3;
+  height:100px;
+  width:100px;
+  position:absolute;
+  left:15px;
+  top:-50px;
 }
 
 .dr-testimonial-title {
