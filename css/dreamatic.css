@@ -353,8 +353,9 @@ strong.dr {
   }
 
   .dr-number-box-text {
-    width:0;
-    height:0;
+    width:inherit;
+    height:inherit;
+    text-align:center;
   }
   .dr-number-img {
     width:0px;
