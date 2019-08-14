@@ -350,6 +350,7 @@ strong.dr {
 
   .dr-number-box {
    display:block;
+   margin-left:0px!important;
   }
 
   .dr-number-box-text {
