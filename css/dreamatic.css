@@ -75,6 +75,24 @@ strong.dr {
   transform:translate(5px, -3px)
 }
 
+.fusion-text em.dr-underline {
+  position:relative;
+  display:inline-block;
+}
+
+.fusion-text em.dr-underline::afrer {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 191, 179, 0.25);
+  left: 0;
+  bottom: 0;
+  height: .45em;
+  z-index: -1;
+  border-radius:15px;
+  transform:translate(5px, -3px)
+}
+
 /*image offsetter*/
 
 .dr-offset-left {
