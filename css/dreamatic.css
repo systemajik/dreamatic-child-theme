@@ -343,6 +343,7 @@ strong.dr {
 .dr-testimonial-box {
   vertical-align:middle;
   display:flex;
+  justify-content: center;
 }
 
 .dr-testimonial-box-text {
