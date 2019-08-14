@@ -25,6 +25,7 @@ function dr_fusion_services_box($atts, $content = null) {
   <p class="dr-box-description"><?php echo $description; ?></p>  
 </div>
 
+
   <?php return ob_get_clean();
   //end output buffer
 
