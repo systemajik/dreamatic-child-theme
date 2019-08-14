@@ -334,6 +334,37 @@ strong.dr {
   box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
 }
 
+/*testmonial box*/
+
+.dr-testimonial-box {
+  vertical-align:middle;
+  display:flex;
+}
+
+.dr-testimonial-box-text {
+  border:1px solid #d6d6d6;
+  border-radius:20px;
+  height:190px;
+  width:600px;
+  padding: 20px;
+  margin:15px;
+  background-color:#ffffff;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+}
+
+.dr-testimonial-img {
+  height:190px;
+  width:190px; 
+  min-width:160px  
+}
+
+.dr-number-img img {
+  width:190px;
+  height:190px;
+}
+
 /*responsive adjustments*/
 
 
