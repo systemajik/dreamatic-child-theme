@@ -78,6 +78,7 @@ strong.dr {
 .fusion-text em.dr-underline {
   position:relative;
   display:inline-block;
+  font-style:normal!important;
 }
 
 .fusion-text em.dr-underline::after {
@@ -90,7 +91,7 @@ strong.dr {
   height: .45em;
   z-index: -1;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
 }
 
 /*image offsetter*/
