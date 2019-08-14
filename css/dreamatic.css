@@ -77,8 +77,12 @@ strong.dr {
 
 /*image offsetter*/
 
-.image-offset {
+.dr-offset-left {
   transform:translate(-30%);
+}
+
+.dr-offset-right {
+  transform:translate(30%);
 }
 
 /*profile*/
