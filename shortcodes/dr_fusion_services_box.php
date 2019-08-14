@@ -19,7 +19,7 @@ function dr_fusion_services_box($atts, $content = null) {
   //3. begin output buffer (paste code and variables in here)
   ob_start(); ?>
 
-<div class="dr-box">
+<div class="dr-services-box">
   <div class="dr-services-box-icon"><img src="<?php echo $img; ?>"/></div>
   <p class="dr-box-title-<?php echo $underline; ?>"><?php echo $title; ?></p>
   <p class="dr-box-description"><?php echo $description; ?></p>  
