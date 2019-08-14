@@ -358,7 +358,8 @@ strong.dr {
     text-align:center;
   }
   .dr-number-img {
-    width:0px;
+    width:auto;
+    text-align:center;
   }
 
 }
