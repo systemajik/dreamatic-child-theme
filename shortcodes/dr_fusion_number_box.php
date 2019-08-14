@@ -19,7 +19,7 @@ function dr_fusion_number_box($atts, $content = null) {
   ob_start(); ?>
 
 <div class="dr-number" style="margin-left:<?php echo $margin; ?>;">
-  <div class="dr-number-box<?php echo "-" . $number; ?>">
+  <div class="dr-number-box<?php echo '-' . $number; ?>">
     <p><?php echo $description; ?></p>
   </div>
 </div>
@@ -58,11 +58,11 @@ function dr_register_fusion_number_box() {
                 'description' => esc_attr__( 'Select a prefix number.', 'fusion-builder' ),
                 'param_name'  => 'number',
                 'value'       => array(
-                  'one' => esc_attr__( 'One', 'fusion-builder' ),
-                  'two'   => esc_attr__( 'Two', 'fusion-builder' ),
-                  'three'   => esc_attr__( 'Three', 'fusion-builder' ),
+                  '1' => esc_attr__( 'One', 'fusion-builder' ),
+                  '2'   => esc_attr__( 'Two', 'fusion-builder' ),
+                  '3'   => esc_attr__( 'Three', 'fusion-builder' ),
                 ),
-                'default'     => 'one',
+                'default'     => '1',
               ),
               array(
                 'type'        => 'textfield',
