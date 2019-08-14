@@ -6,8 +6,8 @@ function dr_fusion_number_box($atts, $content = null) {
   
   //1. create attributes
   extract(shortcode_atts([
-    'description' =>'',
-    'number' =>'',
+    'text' =>'',
+    'img' =>'',
     'margin' =>''
   ], $atts));
   
@@ -18,9 +18,10 @@ function dr_fusion_number_box($atts, $content = null) {
   //3. begin output buffer (paste code and variables in here)
   ob_start(); ?>
 
-<div class="dr-number" style="margin-left:<?php echo $margin; ?>;">
-  <div class="dr-number-box<?php echo '-' . $number; ?>">
-    <p><?php echo $description; ?></p>
+<div class="dr-number-box" style="margin-left:<?php echo $margin; ?>;">
+  <div class="dr-number-img"><img src="<?php echo $img; ?>"/></div>
+  <div class="dr-number-box-text">
+    <p><?php echo $text; ?></p>  
   </div>
 </div>
 
@@ -49,26 +50,21 @@ function dr_register_fusion_number_box() {
                   'type'        => 'tinymce',
                   'heading'     => esc_attr__( 'Content', 'fusion-builder' ),
                   'description' => esc_attr__( 'Box content', 'fusion-builder' ),
-                  'param_name'  => 'description',
+                  'param_name'  => 'text',
                   'value'       => '',
-              ),
-              array(
-                'type'        => 'radio_button_set',
-                'heading'     => esc_attr__( 'Number', 'fusion-builder' ),
-                'description' => esc_attr__( 'Select a prefix number.', 'fusion-builder' ),
-                'param_name'  => 'number',
-                'value'       => array(
-                  '1' => esc_attr__( 'One', 'fusion-builder' ),
-                  '2'   => esc_attr__( 'Two', 'fusion-builder' ),
-                  '3'   => esc_attr__( 'Three', 'fusion-builder' ),
-                ),
-                'default'     => '1',
               ),
               array(
                 'type'        => 'textfield',
                 'heading'     => esc_attr__( 'Left Margin', 'fusion-builder' ),
-                'description' => esc_attr__( 'Left margin size in px', 'fusion-builder' ),
+                'description' => esc_attr__( 'Left margin size in px or %', 'fusion-builder' ),
                 'param_name'  => 'margin',
+                'value'       => '',
+              ),
+              array(
+                'type'        => 'upload',
+                'heading'     => esc_attr__( 'Number image', 'fusion-builder' ),
+                'description' => esc_attr__( 'Attach a number image.', 'fusion-builder' ),
+                'param_name'  => 'img',
                 'value'       => '',
               ),
           ),
