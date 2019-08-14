@@ -11,6 +11,8 @@ require_once(__DIR__ . '/shortcodes/dr_fusion_image_rollover.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_footer.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_profile.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_box.php');
+require_once(__DIR__ . '/shortcodes/dr_fusion_number_box.php');
+
 
 //register and enqueue additional styles and scripts
 
