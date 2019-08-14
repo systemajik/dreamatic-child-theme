@@ -104,6 +104,10 @@ strong.dr {
   transform:translate(30%);
 }
 
+.dr-center {
+  text-align:center;
+}
+
 /*profile*/
 
 .dr-profile {
