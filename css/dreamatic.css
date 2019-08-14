@@ -427,6 +427,19 @@ strong.dr {
     text-align:center;
   }
 
+  .dr-testimonial-box {
+    display:block;
+  }
+
+  .dr-testimonial-box-text {
+    height:auto;
+  }
+
+  .dr-testimonial-img {
+    width:auto;
+    text-align:center;
+  }
+
 }
 
 
