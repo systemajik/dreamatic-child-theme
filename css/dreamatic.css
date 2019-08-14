@@ -80,7 +80,7 @@ strong.dr {
   display:inline-block;
 }
 
-.fusion-text em.dr-underline::afrer {
+.fusion-text em.dr-underline::after {
   content: "";
   position: absolute;
   width: 100%;
