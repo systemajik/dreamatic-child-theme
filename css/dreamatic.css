@@ -380,7 +380,11 @@ strong.dr {
 }
 
 /*services box*/
-
+.dr-services-box-icon img {
+  width: 150px;
+  height: 150px;
+  transform:translate(0,-50px);
+}
 
 
 

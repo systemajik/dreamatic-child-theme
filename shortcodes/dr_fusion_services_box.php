@@ -20,7 +20,7 @@ function dr_fusion_services_box($atts, $content = null) {
   ob_start(); ?>
 
 <div class="dr-box">
-  <div class="dr-box-icon"><img src="<?php echo $img; ?>"/></div>
+  <div class="dr-services-icon"><img src="<?php echo $img; ?>"/></div>
   <p class="dr-box-title-<?php echo $underline; ?>"><?php echo $title; ?></p>
   <p class="dr-box-description"><?php echo $description; ?></p>  
 </div>
