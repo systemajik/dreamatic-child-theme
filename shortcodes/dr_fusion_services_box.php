@@ -7,6 +7,7 @@ function dr_fusion_services_box($atts, $content = null) {
   //1. create attributes
   extract(shortcode_atts([
     'title' =>'',
+    'subtitle' => '',
     'description' =>'',
     'img' =>'',
     'underline' => ''
@@ -22,6 +23,7 @@ function dr_fusion_services_box($atts, $content = null) {
 <div class="dr-services-box">
   <div class="dr-services-box-icon"><img src="<?php echo $img; ?>"/></div>
   <p class="dr-services-box-title-<?php echo $underline; ?>"><?php echo $title; ?></p>
+  <p class="dr-services-box-subtitle"><?php echo $subtitle; ?></p>
   <p class="dr-services-box-description"><?php echo $description; ?></p>  
 </div>
 
@@ -71,10 +73,18 @@ function dr_register_fusion_services_box() {
               ),
               array(
                 'type'        => 'textfield',
+                'heading'     => esc_attr__( 'Subtitle', 'fusion-builder' ),
+                'description' => esc_attr__( 'Subtitle', 'fusion-builder' ),
+                'param_name'  => 'subtitle',
+                'value'       => '',
+              ),
+              array(
+                'type'        => 'tinymce',
                 'heading'     => esc_attr__( 'Description', 'fusion-builder' ),
                 'description' => esc_attr__( 'Description', 'fusion-builder' ),
                 'param_name'  => 'description',
                 'value'       => '',
+                'placeholder' => true,
               ),
               array(
                 'type'        => 'upload',

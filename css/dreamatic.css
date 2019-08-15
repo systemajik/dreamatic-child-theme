@@ -496,6 +496,10 @@ border-radius:15px;
 transform:translate(5px, -3px)
 }
 
+.dr-services-box-subtitle {
+  font-weight:bold;
+}
+
 
 
 /*responsive adjustments*/
