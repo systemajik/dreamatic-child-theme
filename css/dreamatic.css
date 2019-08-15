@@ -500,6 +500,9 @@ transform:translate(5px, -3px)
   font-family: "Noah Bold";
 }
 
+.dr-services-box ul li {
+  text-align:left;
+}
 
 
 /*responsive adjustments*/
