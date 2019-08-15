@@ -384,7 +384,7 @@ strong.dr {
 .dr-services-box {
   border:1px solid #d6d6d6;
   border-radius:20px;
-  height:300px;
+  min-height:320px;
   padding: 120px 20px 20px 20px;
   margin-top: 50px;
   position:relative;
