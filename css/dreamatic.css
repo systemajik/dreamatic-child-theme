@@ -513,12 +513,12 @@ transform:translate(5px, -3px)
 
 .max-width-sml1 {
   max-width: 50% !important;
-  margin-left: 5px !important;
+  margin-left: 10px !important;
   float: left !important;
   }
   .max-width-sml2 {
   max-width: 50% !important;
-  margin-right: 5px !important;
+  margin-right: 10px !important;
   float: right !important;
   }
 
