@@ -589,9 +589,10 @@ transform:translate(5px, -3px)
     width:180px!important;
     height:auto;
   }
-  
+
   .dr-bg-contain {
     background-size:contain!important;
+    min-height:565px;
 
   }
 
