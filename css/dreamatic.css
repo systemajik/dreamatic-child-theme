@@ -592,8 +592,6 @@ transform:translate(5px, -3px)
 
   .dr-bg-contain {
     background-size:contain!important;
-    min-height:565px;
-
   }
 
 }
