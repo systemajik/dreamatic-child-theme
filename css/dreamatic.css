@@ -594,6 +594,8 @@ transform:translate(5px, -3px)
     background-size:contain!important;
   }
 
+  
+
 }
 
 
@@ -612,6 +614,10 @@ transform:translate(5px, -3px)
 
   p.dr-footer-sub {
     margin-bottom: 5px!important;
+  }
+
+  .dr-center {
+    text-align:center;
   }
 
 }
