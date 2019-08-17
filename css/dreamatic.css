@@ -507,8 +507,8 @@ transform:translate(5px, -3px)
 }
 
 .dr-mobile-column {
-  padding-left:5px;
-  padding-right:5px;
+  padding-left:5px!important;
+  padding-right:5px!important;
 }
 
 .max-width-sml1 {
