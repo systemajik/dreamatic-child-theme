@@ -506,7 +506,10 @@ transform:translate(5px, -3px)
   text-align:left;
 }
 
-
+.dr-mobile-column {
+  padding-left:5px;
+  padding-right:5px;
+}
 
 .max-width-sml1 {
   max-width: 50% !important;
