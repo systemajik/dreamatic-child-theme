@@ -586,7 +586,7 @@ transform:translate(5px, -3px)
   }
 
   .fusion-logo img {
-    width:180px;
+    width:180px!important;
   }
 
 }
