@@ -585,6 +585,10 @@ transform:translate(5px, -3px)
     text-align:center;
   }
 
+  .fusion-logo img {
+    width:180px;
+  }
+
 }
 
 
