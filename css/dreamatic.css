@@ -507,6 +507,19 @@ transform:translate(5px, -3px)
 }
 
 
+
+.max-width-sml1 {
+  max-width: 100px !important;
+  margin-left: 40px !important;
+  float: left !important;
+  }
+  .max-width-sml2 {
+  max-width: 100px !important;
+  margin-right: 40px !important;
+  float: right !important;
+  }
+
+
 /*responsive adjustments*/
 
 
