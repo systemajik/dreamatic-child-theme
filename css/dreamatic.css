@@ -564,7 +564,7 @@ transform:translate(5px, -3px)
   }
 
   p.dr-benefits-box-description {
-    margin-bottom: 0px;
+    margin-bottom: 0px!important;
   }
 
   p.dr-benefits-box-title-teal, p.dr-benefits-box-title-amethyst, p.dr-benefits-box-title-amber, p.dr-benefits-box-title-red, p.dr-benefits-box-title-blue, p.dr-benefits-box-title-green {
@@ -572,7 +572,7 @@ transform:translate(5px, -3px)
     font-size:18px;
     position:relative;
     display:inline-block;
-    margin-bottom:5px;
+    margin-bottom:5px!important;
     }
     
     .dr-benefits-box p.dr-benefits-box-title-teal::after {
