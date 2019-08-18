@@ -563,11 +563,11 @@ transform:translate(5px, -3px)
     font-size: 16px;
   }
 
-  .dr-benefits-box p {
+  p.dr-benefits-box-description {
     margin-bottom: 0px;
   }
 
-  .dr-benefits-box-title-teal, .dr-benefits-box-title-amethyst, .dr-benefits-box-title-amber, .dr-benefits-box-title-red, .dr-benefits-box-title-blue, .dr-benefits-box-title-green {
+  p.dr-benefits-box-title-teal, p.dr-benefits-box-title-amethyst, p.dr-benefits-box-title-amber, p.dr-benefits-box-title-red, p.dr-benefits-box-title-blue, p.dr-benefits-box-title-green {
     font-family:"Noah Bold";
     font-size:18px;
     position:relative;
