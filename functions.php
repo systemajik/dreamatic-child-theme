@@ -14,6 +14,8 @@ require_once(__DIR__ . '/shortcodes/dr_fusion_box.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_number_box.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_testimonial_box.php');
 require_once(__DIR__ . '/shortcodes/dr_fusion_services_box.php');
+require_once(__DIR__ . '/shortcodes/dr_fusion_benefits.php');
+
 
 
 
