@@ -527,32 +527,37 @@ transform:translate(5px, -3px)
     border:1px solid #d6d6d6;
     border-radius:20px;
     height:100px;
-    padding: 20px;
+    padding: 10px 10px 10px 10px;
     position:relative;
     background-color:#ffffff;
     text-align:center;
     -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
     -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
     box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
-    display:inline-block;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 
-  .dr-benefits-icon  {
-    float: left;
-    width: 50px;
-    display:inline-block;
+  .dr-benefits-icon {
+    order: 1;
+    width: 75px;
+    height:75px;
+    flex-grow:1; 
   }
 
   .dr-benefits-icon img {
-    width: 50px;
-    height: 50px;
+    order: 1;     
+    width: 75px;
+    height:75px;
+    flex-grow:1; 
   }
 
   .dr-benefits-text {
-    float:right;
     text-align:left;
-    display:inline-block;
-
+    order: 2;
+    flex-grow: 2;
   }
 
 
