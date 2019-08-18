@@ -22,8 +22,8 @@ function dr_fusion_benefits($atts, $content = null) {
 <div class="dr-benefits-box">
   <div class="dr-benefits-icon"><img src="<?php echo $img; ?>"/></div>
   <div class="dr-benefits-text">
-    <p class="dr-box-title-<?php echo $underline; ?>"><?php echo $title; ?></p>
-    <p class="dr-box-description"><?php echo $description; ?></p>  
+    <p class="dr-benefits-box-title-<?php echo $underline; ?>"><?php echo $title; ?></p>
+    <p class="dr-benefits-box-description"><?php echo $description; ?></p>  
   </div>
 </div>
 

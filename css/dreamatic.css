@@ -559,6 +559,10 @@ transform:translate(5px, -3px)
     flex-grow: 2;
   }
 
+  .dr-benefits-box-description p {
+    font-size: 16px;
+  }
+
   .dr-benefits-box-title-teal, .dr-benefits-box-title-amethyst, .dr-benefits-box-title-amber, .dr-benefits-box-title-red, .dr-benefits-box-title-blue, .dr-benefits-box-title-green {
     font-family:"Noah Bold";
     font-size:18px;
