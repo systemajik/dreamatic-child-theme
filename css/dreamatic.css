@@ -539,7 +539,7 @@ transform:translate(5px, -3px)
     align-items: center;
     margin-top:10px;
     margin-bottom: 10px;
-    
+
   }
 
   .dr-benefits-icon {
@@ -648,6 +648,10 @@ transform:translate(5px, -3px)
     height: .45em;
     border-radius:15px;
     transform:translate(5px, -3px)
+    }
+
+    .dr-no-margin {
+      margin-bottom:0px;
     }
 
 
