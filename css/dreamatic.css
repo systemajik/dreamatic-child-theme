@@ -534,10 +534,13 @@ transform:translate(5px, -3px)
     -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
     -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
     box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
+    display:inline-block;
   }
 
   .dr-benefits-icon  {
     float: left;
+    width: 50px;
+    display:inline-block;
   }
 
   .dr-benefits-icon img {
@@ -548,6 +551,8 @@ transform:translate(5px, -3px)
   .dr-benefits-text {
     float:right;
     text-align:left;
+    display:inline-block;
+
   }
 
 
