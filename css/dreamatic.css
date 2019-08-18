@@ -568,6 +568,7 @@ transform:translate(5px, -3px)
     font-size:18px;
     position:relative;
     display:inline-block;
+    margin-bottom:5px;
     }
     
     .dr-benefits-box p.dr-benefits-box-title-teal::after {
