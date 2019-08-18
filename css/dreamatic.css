@@ -537,6 +537,8 @@ transform:translate(5px, -3px)
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin-top:5px;
+    margin-bottom: 5px;
   }
 
   .dr-benefits-icon {
