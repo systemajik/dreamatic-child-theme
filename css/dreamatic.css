@@ -770,7 +770,8 @@ transform:translate(5px, -3px)
 
   .dr-profile {
     padding: 50px 20px 20px 20px;
-    margin-right:20px;  
+    margin-right:10px;  
+    margin-left:10px;  
   }
 
   .dr-profile img {
