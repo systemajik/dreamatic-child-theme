@@ -781,10 +781,24 @@ transform:translate(5px, -3px)
     right: -60px; 
   }
 
+  .dr-profile-left img {
+    height:150px!important;
+    width:150px!important;
+    top: -80px!important;
+    left: -60px!important; 
+  }
+
   .dr-speech img {
     height: 100px!important;
     width: 100px!important;
     left: 15px!important;
+    top: -50px!important;
+  }
+
+  .dr-speech-right img {
+    height: 100px!important;
+    width: 100px!important;
+    right: 15px!important;
     top: -50px!important;
   }
 
