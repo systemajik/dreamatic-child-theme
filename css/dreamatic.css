@@ -1,3 +1,17 @@
+/* dreamatic theme colours */
+
+  :root {
+    --dr-teal: rgba(0, 191, 179, 0.25);
+    --dr-amethyst: rgba(73, 96, 247, 0.40);
+    --dr-amber: rgba(254, 206, 105, 0.50);
+    --dr-red: rgba(253, 131, 128, 0.50);
+    --dr-blue: rgba(133, 220, 253, 0.50);
+    --dr-green: rgba(128, 224, 167, 0.50);
+  }
+
+
+
+
 /* image rollover box */
 
 .dr-roll-container {
@@ -753,5 +767,20 @@ transform:translate(5px, -3px)
   .dr-center {
     text-align:center;
   }
+
+  .dr-profile {
+    padding: 50px 20px 20px 20px;
+    margin-right:20px;  
+  }
+
+  .dr-profile::after {
+    bottom:-20px;
+    right:-20px;
+    border-radius:30px;
+  }
+
+
+
+
 
 }
