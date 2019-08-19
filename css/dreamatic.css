@@ -774,7 +774,7 @@ transform:translate(5px, -3px)
     margin-left:10px;  
   }
 
-  .dr-profile img {
+  .dr-profile img:not(.dr-speech, .dr-speech-left) {
     height:150px;
     width:150px;
     top: -80px;
