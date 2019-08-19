@@ -8,7 +8,8 @@ function dr_fusion_testimonial_box($atts, $content = null) {
   extract(shortcode_atts([
     'text' =>'',
     'title' =>'',
-    'img' =>''
+    'img' =>'',
+    'mobile' =>''
   ], $atts));
   
   //2. set additional variables if required
@@ -19,12 +20,17 @@ function dr_fusion_testimonial_box($atts, $content = null) {
   ob_start(); ?>
 
 <div class="dr-testimonial-box">
-  <div class="dr-testimonial-box-text">
+<?php if($mobile === 'yes') : ?>
+  <div class="dr-testimonial-img"><img src="<?php echo $img; ?>"/></div>
+<?php endif ?>
+<div class="dr-testimonial-box-text">
     <p><?php echo $text; ?></p>
     <p class="dr-testimonial-title"><?php echo $title; ?></p>
     <div class="dr-testimonial-speech"><img src="http://staging.dreamatic.digital/wp-content/uploads/2019/08/speech-marks.png"/></div>
   </div>
+  <?php if($mobile === 'no') : ?>
   <div class="dr-testimonial-img"><img src="<?php echo $img; ?>"/></div>
+  <?php endif ?>
 </div>
 
   <?php return ob_get_clean();
@@ -68,6 +74,17 @@ function dr_register_fusion_testmonial_box() {
                 'description' => esc_attr__( 'Attach an image 160px', 'fusion-builder' ),
                 'param_name'  => 'img',
                 'value'       => '',
+              ),
+              array(
+                'type'        => 'radio_button_set',
+                'heading'     => esc_attr__( 'Mobile View', 'fusion-builder' ),
+                'description' => esc_attr__( 'Is this the mobile version?', 'fusion-builder' ),
+                'param_name'  => 'mobile',
+                'value'       => array(
+                  'yes' => esc_attr__( 'Yes', 'fusion-builder' ),
+                  'no'   => esc_attr__( 'No', 'fusion-builder' ),
+                ),
+                'default'     => 'no',
               ),
           ),
       ) 
