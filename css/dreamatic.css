@@ -774,14 +774,14 @@ transform:translate(5px, -3px)
     margin-left:10px;  
   }
 
-  .dr-profile img:not(.dr-speech, .dr-speech-left) {
+  .dr-profile-img img {
     height:150px;
     width:150px;
     top: -80px;
     right: -60px; 
   }
 
-  .dr-profile-left img {
+  .dr-profile-img-left img {
     height:150px!important;
     width:150px!important;
     top: -80px!important;
