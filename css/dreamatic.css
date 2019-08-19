@@ -781,6 +781,13 @@ transform:translate(5px, -3px)
     right: -60px; 
   }
 
+  .dr-speech img {
+    height: 100px!important;
+    width: 100px!important;
+    left: 15px!important;
+    top: -50px!important;
+  }
+
   .dr-profile::after {
     bottom:-20px;
     right:-20px;
