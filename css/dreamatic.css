@@ -246,6 +246,7 @@ strong.dr {
   font-size:22px;
   position:relative;
   display:inline-block;
+  z-index:9999;
 }
 
 .dr-box p.dr-box-title-teal::after {
@@ -257,7 +258,8 @@ strong.dr {
   bottom: 0;
   height: .45em;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
+  z-index:-1;
 }
 
 .dr-box p.dr-box-title-amethyst::after {
@@ -269,7 +271,8 @@ strong.dr {
   bottom: 0;
   height: .45em;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
+  z-index:-1;
 }
 
 .dr-box p.dr-box-title-amber::after {
@@ -281,7 +284,8 @@ strong.dr {
   bottom: 0;
   height: .45em;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
+  z-index:-1;
 }
 
 .dr-box p.dr-box-title-red::after {
@@ -293,7 +297,8 @@ strong.dr {
   bottom: 0;
   height: .45em;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
+  z-index:-1;
 }
 
 .dr-box p.dr-box-title-blue::after {
@@ -305,7 +310,8 @@ strong.dr {
   bottom: 0;
   height: .45em;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
+  z-index:-1;
 }
 
 .dr-box p.dr-box-title-green::after {
@@ -317,7 +323,8 @@ strong.dr {
   bottom: 0;
   height: .45em;
   border-radius:15px;
-  transform:translate(5px, -3px)
+  transform:translate(5px, -3px);
+  z-index:-1;
 }
 
 /*numbered box*/
