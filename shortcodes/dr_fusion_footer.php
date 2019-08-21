@@ -29,10 +29,12 @@ function dr_fusion_footer($atts, $content = null) {
     <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
       <span class="fusion-button-text"><?php echo $cta; ?></span>
     </a>
-    <?php if($footer === 'yes') : ?>
-      <p class="dr-footer"><?php echo $footertext; ?></p>
-    <?php endif ?>
   </div>
+  <?php if($footer === 'yes') : ?>
+    <div class="dr-copyright">    
+      <p class="dr-footer"><?php echo $footertext; ?></p>
+    </div>
+  <?php endif ?>
 
 
 </div>
