@@ -756,7 +756,7 @@ transform:translate(5px, -3px)
     background-size:contain!important;
   }
 
-  .dr-fusion-text a {
+  div.dr-footer > div.dr-footer-text > a {
     padding:14px 14px;
     line-height:8px;
     font-size:10px;
