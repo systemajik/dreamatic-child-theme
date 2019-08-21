@@ -692,7 +692,7 @@ transform:translate(5px, -3px)
     width:100%;
   }
 
-  .dr-footer-sub p {
+  p.dr-footer-sub {
     margin-bottom: 5px;
   }
 
