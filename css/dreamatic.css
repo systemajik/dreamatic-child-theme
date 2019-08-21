@@ -756,6 +756,12 @@ transform:translate(5px, -3px)
     background-size:contain!important;
   }
 
+  .dr-fusion-text a {
+    padding:14px 14px;
+    line-height:8px;
+    font-size:10px;
+    margin: 15px 0 25px 0;
+  }
   
 
 }
