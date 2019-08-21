@@ -47,6 +47,7 @@ strong.dr {
 .dr-footer p {
   color: #ffffff;
   margin-bottom:0px!important;
+  line-height:0px;
 }
 
 .dr-footer-text {
