@@ -692,6 +692,10 @@ transform:translate(5px, -3px)
     width:100%;
   }
 
+  .dr-footer-sub p {
+    margin-bottom: 5px;
+  }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -816,6 +820,10 @@ transform:translate(5px, -3px)
     bottom:-20px;
     right:-20px;
     border-radius:30px;
+  }
+
+  .dr-footer img {
+    min-height: 200px;
   }
 
 
