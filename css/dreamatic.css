@@ -89,6 +89,11 @@ order:3;
   color:#ffffff;
 }
 
+.dr-privacy {
+  display: flex;
+  order:4;
+}
+
 /*special header underline*/
 
 .fusion-text h2.dr-underline {

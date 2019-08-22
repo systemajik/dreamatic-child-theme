@@ -34,7 +34,9 @@ function dr_fusion_footer($atts, $content = null) {
   <?php if($footer === 'yes') : ?>
     <div class="dr-copyright"> 
       <p class="dr-copyright-text"><?php echo $footertext; ?></p>
+      <div class="dr-privacy">
       <a href="/privacy" class="dr-footer-link"> Privacy |</a><a href="/cookies" class="dr-footer-link"> Cookies </a>
+      </div>
     
     </div>
     
