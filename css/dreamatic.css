@@ -82,6 +82,10 @@ order:3;
 
 .dr-footer-link:link {
   text-decoration:none;
+  color:#3f4444;
+}
+
+.dr-footer-link:hover {
   color:#ffffff;
 }
 
