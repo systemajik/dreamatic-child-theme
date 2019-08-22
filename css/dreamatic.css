@@ -39,9 +39,12 @@ strong.dr {
 /* dreamatic footer */
 
 .dr-footer {
-  position:relative;
   width:100%;
   text-align:center;
+  background:url(/wp-content/uploads/2019/08/wavy-footer.png);
+  background-size:cover;
+  background-position:top;
+  min-height:300px;
 }
 
 .dr-footer-cta {

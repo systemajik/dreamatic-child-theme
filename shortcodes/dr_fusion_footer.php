@@ -22,7 +22,6 @@ function dr_fusion_footer($atts, $content = null) {
   ob_start(); ?>
 
 <div class="dr-footer">
-  <img src="/wp-content/uploads/2019/08/wavy-footer.png" />
   <div class="dr-footer-cta">
     <span class="dr-footer-title"><?php echo $title; ?></span>
     <p class="dr-footer-sub"><?php echo $subtitle; ?></p>
