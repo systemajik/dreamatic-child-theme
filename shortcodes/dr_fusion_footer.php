@@ -33,7 +33,7 @@ function dr_fusion_footer($atts, $content = null) {
   </div>
   <?php if($footer === 'yes') : ?>
     <div class="dr-copyright"> 
-      <p class="dr-copyright-text"><?php echo $footertext; ?> | <a href="/privacy" class="dr-footer-link"> Privacy </a> | <a href="/cookies" class="dr-footer-link"> Cookies </a></p>
+      <p class="dr-copyright-text"><?php echo $footertext; ?> | <a href="/privacy" class="dr-footer-link"> Privacy Policy </a> | <a href="/cookies" class="dr-footer-link"> Cookies </a></p>
     </div>
     
   <?php endif ?>
