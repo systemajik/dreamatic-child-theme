@@ -44,16 +44,7 @@ strong.dr {
   text-align:center;
 }
 
-.dr-footer p {
-  color: #ffffff;
-  margin-bottom:0px!important;
-  line-height:0px;
-}
-
-.dr-footer-text {
-  position:absolute;
-  bottom:30%;
-  width:100%;
+.dr-footer-cta {
 }
 
 .dr-footer-cta {
@@ -64,11 +55,27 @@ strong.dr {
   text-align: center;
 }
 
+.dr-footer-title {
+
+}
+
+.dr-footer-sub {
+
+}
+
+.dr-footer-button {
+
+}
+
 .dr-copyright {
   text-align:center;
   position:relative;
   height:0px;
   bottom: 15px;
+}
+
+.dr-copyright-text {
+
 }
 
 /*special header underline*/
@@ -686,29 +693,9 @@ transform:translate(5px, -3px)
 
 @media only screen and (max-width: 1366px) {
 
-  .dr-footer-text {
-    position:absolute;
-    bottom:15%;
-    width:100%;
-  }
-
-  p.dr-footer-sub {
-    margin-bottom: 5px!important;
-  }
-
 }
 
 @media only screen and (max-width: 800px) {
-
-  .dr-footer-text {
-    position:absolute;
-    bottom:15%;
-    width:100%;
-  }
-
-  .dr-footer-cta {
-    font-size:28px;
-  }
 
   .header-title {
     font-size: 32px!important;
@@ -755,34 +742,12 @@ transform:translate(5px, -3px)
   .dr-bg-contain {
     background-size:contain!important;
   }
-
-  div.dr-footer > div.dr-footer-text > a {
-    padding:14px 14px;
-    line-height:8px;
-    font-size:10px;
-    margin: 15px 0 25px 0;
-  }
   
-
 }
 
 
 
 @media only screen and (max-width: 600px) {
-
-  .dr-footer-text {
-    position:absolute;
-    bottom:5%;
-    width:100%;
-  }
-
-  .dr-footer-cta {
-    font-size:20px;
-  }
-
-  p.dr-footer-sub {
-    margin-bottom: 5px!important;
-  }
 
   .dr-center {
     text-align:center;

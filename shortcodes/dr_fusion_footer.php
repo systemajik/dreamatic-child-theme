@@ -23,16 +23,18 @@ function dr_fusion_footer($atts, $content = null) {
 
 <div class="dr-footer">
   <img src="/wp-content/uploads/2019/08/wavy-footer.png" />
-  <div class="dr-footer-text">
-    <span class="dr-footer-cta"><?php echo $title; ?></span>
+  <div class="dr-footer-cta">
+    <span class="dr-footer-title"><?php echo $title; ?></span>
     <p class="dr-footer-sub"><?php echo $subtitle; ?></p>
-    <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
-      <span class="fusion-button-text"><?php echo $cta; ?></span>
-    </a>
+    <div class="dr-footer-button">
+      <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
+        <span class="fusion-button-text"><?php echo $cta; ?></span>
+      </a>
+    </div>
   </div>
   <?php if($footer === 'yes') : ?>
     <div class="dr-copyright">    
-      <p class="dr-footer"><?php echo $footertext; ?></p>
+      <p class="dr-copyright-text"><?php echo $footertext; ?></p>
     </div>
   <?php endif ?>
 
