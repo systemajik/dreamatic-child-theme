@@ -45,7 +45,7 @@ strong.dr {
   flex-direction:column;
   order:1;
   padding-bottom:5%;
-  align-items:center;
+  align-items:center!important;
 }
 
 .dr-footer-title {
