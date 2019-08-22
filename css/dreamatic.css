@@ -76,6 +76,10 @@ display:flex;
 order:3;
 }
 
+.dr-footer-link {
+  padding: 0px 5px 0px 5px;
+}
+
 .dr-footer-link:link {
   text-decoration:none;
   color:#ffffff;
