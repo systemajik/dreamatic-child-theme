@@ -45,18 +45,16 @@ strong.dr {
 }
 
 .dr-footer-cta {
+  text-align: center;
+  position: absolute;
+  bottom:3%;
 }
 
-.dr-footer-cta {
+.dr-footer-title {
   font-family: "Noah Bold";
   font-size: 44px;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
-}
-
-.dr-footer-title {
-
 }
 
 .dr-footer-sub {
