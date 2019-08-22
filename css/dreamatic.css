@@ -76,6 +76,11 @@ display:flex;
 order:3;
 }
 
+.dr-footer-link:link {
+  text-decoration:none;
+  color:#ffffff;
+}
+
 /*special header underline*/
 
 .fusion-text h2.dr-underline {
