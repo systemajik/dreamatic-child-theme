@@ -35,6 +35,7 @@ function dr_fusion_footer($atts, $content = null) {
     <div class="dr-copyright">    
       <p class="dr-copyright-text"><?php echo $footertext; ?> | <a href="/privacy">Privacy</a> | <a href="/cookies">Cookies</a></p>
     </div>
+    
   <?php endif ?>
 
 
