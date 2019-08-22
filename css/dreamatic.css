@@ -44,7 +44,8 @@ position: relative;
 display:flex;
 flex-direction:column;
 order:1;
-padding-bottom:5%
+padding-bottom:5%;
+align-items:center;
 }
 
 .dr-footer-title {
@@ -68,7 +69,7 @@ order:4;
 justify-content:center;
 }
 
-.dr-copyright {
+.dr-copyright, .dr-copyright-text {
 text-align:center;
 position:relative;
 display:flex;
