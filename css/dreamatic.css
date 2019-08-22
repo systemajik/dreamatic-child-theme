@@ -47,6 +47,7 @@ strong.dr {
   min-height:400px;
   display:flex;
   justify-content:center;
+  align-items:center;
 }
 
 .dr-footer-cta {
@@ -64,14 +65,18 @@ strong.dr {
   font-size: 44px;
   color: #ffffff;
   text-transform: uppercase;
+  display:flex;
+  order:2;
 }
 
 .dr-footer-sub {
-
+  display:flex;
+  order:3;
 }
 
 .dr-footer-button {
-
+  display:flex;
+  order:4;
 }
 
 .dr-copyright {
@@ -79,6 +84,8 @@ strong.dr {
   position:relative;
   height:0px;
   bottom: 15px;
+  display:flex;
+  order:5;
 }
 
 .dr-copyright-text {
