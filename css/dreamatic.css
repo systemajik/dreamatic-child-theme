@@ -506,17 +506,6 @@ p.dr-green::after {
     margin-bottom:5px!important;
     }
 
-    p.dr-benefits-box-title::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      left: 0;
-      bottom: 0;
-      height: .45em;
-      border-radius:15px;
-      transform:translate(5px, -3px);
-    }
-
     .dr-no-margin {
       margin-bottom:0px!important;
       
