@@ -498,92 +498,29 @@ p.dr-green::after {
     margin-bottom: 0px!important;
   }
 
-  p.dr-benefits-box-title-teal, p.dr-benefits-box-title-amethyst, p.dr-benefits-box-title-amber, p.dr-benefits-box-title-red, p.dr-benefits-box-title-blue, p.dr-benefits-box-title-green {
+  p.dr-benefits-box-title {
     font-family:"Noah Bold";
     font-size:18px;
     position:relative;
     display:inline-block;
     margin-bottom:5px!important;
     }
-    
-    .dr-benefits-box p.dr-benefits-box-title-teal::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background: rgba(0, 191, 179, 0.25);
-    left: 0;
-    bottom: 0;
-    height: .45em;
-    border-radius:15px;
-    transform:translate(5px, -3px)
-    }
-    
-    .dr-benefits-box p.dr-benefits-box-title-amethyst::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background: rgba(73, 96, 247, 0.40);
-    left: 0;
-    bottom: 0;
-    height: .45em;
-    border-radius:15px;
-    transform:translate(5px, -3px)
-    }
-    
-    .dr-benefits-box p.dr-benefits-box-title-amber::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background: rgba(254, 206, 105, 0.50);
-    left: 0;
-    bottom: 0;
-    height: .45em;
-    border-radius:15px;
-    transform:translate(5px, -3px)
-    }
-    
-    .dr-benefits-box p.dr-benefits-box-title-red::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background: rgba(253, 131, 128, 0.50);
-    left: 0;
-    bottom: 0;
-    height: .45em;
-    border-radius:15px;
-    transform:translate(5px, -3px)
-    }
-    
-    .dr-benefits-box p.dr-benefits-box-title-blue::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background: rgba(133, 220, 253, 0.50);
-    left: 0;
-    bottom: 0;
-    height: .45em;
-    border-radius:15px;
-    transform:translate(5px, -3px)
-    }
-    
-    .dr-benefits-box p.dr-benefits-box-title-green::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background: rgba(128, 224, 167, 0.50);
-    left: 0;
-    bottom: 0;
-    height: .45em;
-    border-radius:15px;
-    transform:translate(5px, -3px)
+
+    p.dr-benefits-box-title::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      height: .45em;
+      border-radius:15px;
+      transform:translate(5px, -3px);
     }
 
     .dr-no-margin {
       margin-bottom:0px!important;
       
     }
-
-
 
 /*responsive adjustments*/
 
