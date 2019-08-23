@@ -25,6 +25,7 @@ function dr_fusion_services_box($atts, $content = null) {
   <p class="dr-box-title <?php echo $underline; ?>"><?php echo $title; ?></p>
   <p class="dr-services-box-subtitle"><?php echo $subtitle; ?></p>
   <p class="dr-services-box-description"><?php echo $description; ?></p>  
+
 </div>
 
 
