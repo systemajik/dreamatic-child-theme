@@ -278,7 +278,7 @@ margin-bottom:0px!important;
   z-index:9999;
 }
 
-.dr-teal, .dr-amethyst, .dr-amber, .dr-red, .dr-blue, .dr-green { 
+.dr-teal::after, .dr-amethyst::after, .dr-amber::after, .dr-red::after, .dr-blue::after, .dr-green::after { 
   content: "";
   position: absolute;
   width: 100%;
