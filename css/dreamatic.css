@@ -290,26 +290,26 @@ margin-bottom:0px!important;
   z-index:-1;
 }
 
-.dr-teal::after {
+p.dr-teal::after {
   background: rgba(0, 191, 179, 0.25);
 } 
 
-.dr-amethyst::after {
+p.dr-amethyst::after {
   background: rgba(73, 96, 247, 0.40);
 }
-.dr-amber::after {
+p.dr-amber::after {
   background: rgba(254, 206, 105, 0.50);
 } 
 
-.dr-red::after {
+p.dr-red::after {
   background: rgba(253, 131, 128, 0.50);
 } 
 
-.dr-blue::after {
+p.dr-blue::after {
   background: rgba(133, 220, 253, 0.50);
 }
 
-.dr-green::after {
+p.dr-green::after {
   background: rgba(128, 224, 167, 0.50);
 }
 
