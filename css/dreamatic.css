@@ -97,7 +97,7 @@ margin-bottom:0px!important;
   justify-content:center;
 }
 
-/*special header underline*/
+/* special header underline */
 
 .fusion-text h2.dr-underline {
   position:relative;
@@ -137,7 +137,7 @@ margin-bottom:0px!important;
   transform:translate(5px, -3px);
 }
 
-/*image offsetter*/
+/* adjustments */
 
 .dr-offset-left {
   transform:translate(-30%);
@@ -151,7 +151,7 @@ margin-bottom:0px!important;
   text-align:center;
 }
 
-/* profile*/
+/* profile */
 
 .dr-profile {
   border:1px solid #d6d6d6;
@@ -173,7 +173,7 @@ margin-bottom:0px!important;
     content: "";
     width: 720px;
     height: 300px;
-    background-image: url("http://staging.dreamatic.digital/wp-content/uploads/2019/08/profile-background.png");
+    background-image: url("/wp-content/uploads/2019/08/profile-background.png");
     background-size:cover;
     position: absolute;
     z-index:-1;
@@ -234,7 +234,7 @@ margin-bottom:0px!important;
   -ms-filter: "FlipH";
 }
 
-/*box*/
+/* box */
 
 .dr-box {
   border:1px solid #d6d6d6;
@@ -260,7 +260,7 @@ margin-bottom:0px!important;
     content: "";
     width: 300px;
     height: 300px;
-    background-image: url("http://staging.dreamatic.digital/wp-content/uploads/2019/08/profile-background.png");
+    background-image: url("/wp-content/uploads/2019/08/profile-background.png");
     background-size:cover;
     position: absolute;
     z-index:-1;
@@ -313,7 +313,7 @@ p.dr-green::after {
   background: rgba(128, 224, 167, 0.50);
 }
 
-/*numbered box*/
+/* numbered box */
 
 .dr-number-box {
   vertical-align:middle;
@@ -345,7 +345,7 @@ p.dr-green::after {
   box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.11);
 }
 
-/*testmonial box*/
+/* testmonial box */
 
 .dr-testimonial-box {
   vertical-align:middle;
@@ -387,7 +387,7 @@ p.dr-green::after {
   font-family: "Noah Bold";
 }
 
-/*services box*/
+/* services box */
 
 .dr-services-box {
   border:1px solid #d6d6d6;
@@ -450,7 +450,8 @@ p.dr-green::after {
   float: right !important;
   }
 
-  /*beneftis box*/
+  /* benefits box */
+
   .dr-benefits-box {
     border:1px solid #d6d6d6;
     border-radius:20px;
@@ -514,11 +515,6 @@ p.dr-green::after {
 
 /*responsive adjustments*/
 
-
-@media only screen and (max-width: 1366px) {
-
-}
-
 @media only screen and (max-width: 800px) {
 
   .header-title {
@@ -568,8 +564,6 @@ p.dr-green::after {
   }
   
 }
-
-
 
 @media only screen and (max-width: 600px) {
 
