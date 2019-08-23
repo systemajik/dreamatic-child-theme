@@ -270,7 +270,7 @@ margin-bottom:0px!important;
     border-radius:25px;
 }
 
-.dr-box-title-teal, .dr-box-title-amethyst, .dr-box-title-amber, .dr-box-title-red, .dr-box-title-blue, .dr-box-title-green {
+.dr-box-title {
   font-family:"Noah Bold";
   font-size:22px;
   position:relative;
@@ -278,82 +278,39 @@ margin-bottom:0px!important;
   z-index:9999;
 }
 
-.dr-box p.dr-box-title-teal::after {
+.dr-teal, .dr-amethyst, .dr-amber, .dr-red, .dr-blue, .dr-green { 
   content: "";
   position: absolute;
   width: 100%;
+  left: 0;
+  bottom: 0;
+  height: .45em;
+  border-radius:15px;
+  transform:translate(5px, -3px);
+  z-index:-1;
+}
+
+.dr-teal::after {
   background: rgba(0, 191, 179, 0.25);
-  left: 0;
-  bottom: 0;
-  height: .45em;
-  border-radius:15px;
-  transform:translate(5px, -3px);
-  z-index:-1;
-}
+} 
 
-.dr-box p.dr-box-title-amethyst::after {
-  content: "";
-  position: absolute;
-  width: 100%;
+.dr-amethyst::after {
   background: rgba(73, 96, 247, 0.40);
-  left: 0;
-  bottom: 0;
-  height: .45em;
-  border-radius:15px;
-  transform:translate(5px, -3px);
-  z-index:-1;
 }
-
-.dr-box p.dr-box-title-amber::after {
-  content: "";
-  position: absolute;
-  width: 100%;
+.dr-amber::after {
   background: rgba(254, 206, 105, 0.50);
-  left: 0;
-  bottom: 0;
-  height: .45em;
-  border-radius:15px;
-  transform:translate(5px, -3px);
-  z-index:-1;
-}
+} 
 
-.dr-box p.dr-box-title-red::after {
-  content: "";
-  position: absolute;
-  width: 100%;
+.dr-red::after {
   background: rgba(253, 131, 128, 0.50);
-  left: 0;
-  bottom: 0;
-  height: .45em;
-  border-radius:15px;
-  transform:translate(5px, -3px);
-  z-index:-1;
-}
+} 
 
-.dr-box p.dr-box-title-blue::after {
-  content: "";
-  position: absolute;
-  width: 100%;
+.dr-blue::after {
   background: rgba(133, 220, 253, 0.50);
-  left: 0;
-  bottom: 0;
-  height: .45em;
-  border-radius:15px;
-  transform:translate(5px, -3px);
-  z-index:-1;
 }
 
-.dr-box p.dr-box-title-green::after {
-  content: "";
-  position: absolute;
-  width: 100%;
+.dr-green::after {
   background: rgba(128, 224, 167, 0.50);
-  left: 0;
-  bottom: 0;
-  height: .45em;
-  border-radius:15px;
-  transform:translate(5px, -3px);
-  z-index:-1;
 }
 
 /*numbered box*/
