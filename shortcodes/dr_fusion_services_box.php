@@ -66,7 +66,7 @@ function dr_register_fusion_services_box() {
                   'dr-teal' => esc_attr__( 'Teal', 'fusion-builder' ),
                   'dr-amethyst'   => esc_attr__( 'Amethyst', 'fusion-builder' ),
                   'dr-amber'   => esc_attr__( 'Amber', 'fusion-builder' ),
-                  'redness'   => esc_attr__( 'Red', 'fusion-builder' ),
+                  'dr-red'   => esc_attr__( 'Red', 'fusion-builder' ),
                   'dr-blue'   => esc_attr__( 'Blue', 'fusion-builder' ),
                   'dr-green'   => esc_attr__( 'Green', 'fusion-builder' ),
                 ),
