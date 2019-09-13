@@ -36,6 +36,7 @@ strong.dr {
   justify-content:flex-end;
   align-items:center;
   flex-direction:column;
+  padding: 15px;
 }
 
 .dr-footer-cta {
