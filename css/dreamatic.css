@@ -628,4 +628,8 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
     margin-top:0px!important;
   }
 
+  .dr-footer-title {
+    font-size: 30px;
+    }
+
 }
