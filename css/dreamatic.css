@@ -294,7 +294,7 @@ p.dr-teal::after {
   background: rgba(0, 191, 179, 0.25);
 } 
 
-p.dr-amethyst::after {
+p.dr-amethyst::after, h2.dr-amethyst::after {
   background: rgba(73, 96, 247, 0.40);
 }
 p.dr-amber::after {
