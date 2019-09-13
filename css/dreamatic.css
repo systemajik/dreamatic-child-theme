@@ -617,4 +617,9 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
     border-radius:30px;
   }
 
+  .dr-collapse {
+    margin-bottom:0px!important;
+    margin-top:0px!important;
+  }
+
 }
