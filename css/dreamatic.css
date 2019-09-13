@@ -62,6 +62,7 @@ justify-content: center;
 .dr-footer-sub {
 display:flex;
 order:3;
+color:#ffffff;
 }
 
 .dr-footer-button {
@@ -77,6 +78,7 @@ display:flex;
 order:3;
 flex-direction:column;
 margin-bottom:0px!important;
+color:#ffffff;
 }
 
 .dr-footer-link {
