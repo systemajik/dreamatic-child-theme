@@ -590,6 +590,11 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
     right: -60px; 
   }
 
+  .dr-profile {
+    margin-bottom:50px;
+    margin-top:50px;
+  }
+
   .dr-profile-img-left img {
     height:150px!important;
     width:150px!important;
