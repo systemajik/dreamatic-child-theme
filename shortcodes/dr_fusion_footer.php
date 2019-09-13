@@ -26,7 +26,7 @@ function dr_fusion_footer($atts, $content = null) {
     <span class="dr-footer-title"><?php echo $title; ?></span>
     <p class="dr-footer-sub"><?php echo $subtitle; ?></p>
     <div class="dr-footer-button">
-      <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-1 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
+      <a class="fusion-button button-flat fusion-button-default-shape fusion-button-default-size button-default button-10 fusion-button-default-span fusion-button-default-type" href="<?php echo $link; ?>">
         <span class="fusion-button-text"><?php echo $cta; ?></span>
       </a>
     </div>
