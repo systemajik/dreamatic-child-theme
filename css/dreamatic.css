@@ -101,6 +101,10 @@ color:#ffffff;
   color: #ffffff;
 }
 
+.dr-privacy a:link {
+  color: #ffffff;
+}
+
 /* special header underline */
 
 .fusion-text h2.dr-underline {
