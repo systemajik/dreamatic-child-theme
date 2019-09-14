@@ -29,7 +29,7 @@ function dr_fusion_profile($atts, $content = null) {
 
     <div class="dr-profile-img<?php if($orientation === 'left') { echo "-left"; } ?>"><img src="<?php echo $img; ?>"/></div>
 
-    <div class="dr-speech<?php if($orientation === 'left') { echo "-left"; } ?>"><img src="http://staging.dreamatic.digital/wp-content/uploads/2019/08/speech-marks.png"/></div>
+    <div class="dr-speech<?php if($orientation === 'left') { echo "-left"; } ?>"><img src="https://dreamatic.digital/wp-content/uploads/2019/08/speech-marks.png"/></div>
 </div>
 
   <?php return ob_get_clean();
