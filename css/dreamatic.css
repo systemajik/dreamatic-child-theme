@@ -101,7 +101,7 @@ color:#ffffff;
   color: #ffffff;
 }
 
-.dr-privacy a:link {
+.dr-privacy a:link, .dr-privacy a:visited {
   color: #ffffff;
 }
 
