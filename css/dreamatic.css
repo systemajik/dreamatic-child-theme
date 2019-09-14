@@ -520,6 +520,7 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
     display:inline-block;
     z-index:9999;
     margin-bottom:5px!important;
+    
     }
 
     .dr-no-margin {
