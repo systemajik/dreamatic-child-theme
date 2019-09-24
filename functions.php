@@ -29,9 +29,11 @@ function dr_enqueue(){
 
   wp_register_style( 'dr_styles', $uri . '/css/dreamatic.css', [], $ver );
   wp_register_script( 'dr_scripts', $uri . '/js/dreamatic.js', [ 'jquery' ], $ver, true );
+  wp_register_script( 'dr_typeform', 'https://public-assets.typeform.com/confab/embed.js', [], $ver, true);
 
   wp_enqueue_style( 'dr_styles' );
   wp_enqueue_script( 'dr_scripts' );
+  wp_enqueue_script( 'dr_typeform');
 }
 
 //hooks
