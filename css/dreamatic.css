@@ -45,7 +45,7 @@ strong.dr {
   display:flex;
   flex-direction:column;
   order:1;
-  padding-bottom:5%;
+  padding-bottom:2%;
   align-items:center!important;
 }
 
@@ -528,6 +528,14 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
     }
 
 /*responsive adjustments*/
+
+@media only screen and (min-width: 1440px) {
+  
+  .dr-footer-cta {
+    padding-bottom:4px;
+  }
+
+}
 
 @media only screen and (max-width: 800px) {
 
