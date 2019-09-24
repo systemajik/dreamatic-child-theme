@@ -31,15 +31,14 @@ function dr_enqueue(){
   wp_enqueue_style( 'dr_styles' );
 }
 
-/* function dr_register_conditional() {
-  
-  $uri = get_theme_file_uri();
+ function dr_register_conditional() {
 
   if ( is_page( 'contact-us' ) ) {
+
     wp_register_script( 'dr_typeform', 'https://embed.typeform.com/embed.js' , '', '', true );
     wp_enqueue_script( 'dr_typeform' );
-  } */
-}
+  } 
+ }
 
-//add_action( 'wp_enqueue_scripts', 'dr_register_conditional');
+add_action( 'wp_enqueue_scripts', 'dr_register_conditional');
 add_action( 'wp_enqueue_scripts', 'dr_enqueue' );
