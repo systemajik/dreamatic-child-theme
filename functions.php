@@ -31,14 +31,9 @@ function dr_enqueue(){
   wp_enqueue_style( 'dr_styles' );
 }
 
- function dr_typeform_scripts() {
+function dr_typeform_scripts() {
 
-  if ( is_page( 'contact-us' ) && wp_is_mobile() ) {
-
-    wp_register_script( 'dr_typeform_mobile', 'https://public-assets.typeform.com/confab/embed.js', '', '', true );
-    wp_enqueue_script( 'dr_typeform_mobile' );
-  
-  } else if ( is_page( 'contact-us' ) ) {
+  if ( is_page( 'contact-us' ) ) {
 
     wp_register_script( 'dr_typeform', 'https://embed.typeform.com/embed.js', '', '', true );
     wp_enqueue_script( 'dr_typeform' );
