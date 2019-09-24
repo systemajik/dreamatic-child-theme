@@ -532,7 +532,7 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
 @media only screen and (min-width: 1440px) {
   
   .dr-footer-cta {
-    padding-bottom:4px;
+    padding-bottom:4%;
   }
 
 }
