@@ -34,13 +34,10 @@ function dr_enqueue(){
  function dr_register_conditional() {
 
   if ( is_page( 'contact-us' ) ) {
-
-    $uri = get_theme_file_uri();
-
-    wp_register_script( 'dr_custom_js', $uri . '/js/dreamatic.js', '', '', true );
-    wp_enqueue_script( 'dr_custom_js' );
+    ?>
+    <script>(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>
+  <?php
   } 
  }
 
-add_action( 'wp_enqueue_scripts', 'dr_register_conditional');
 add_action( 'wp_enqueue_scripts', 'dr_enqueue' );
