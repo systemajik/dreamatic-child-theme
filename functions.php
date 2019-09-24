@@ -31,7 +31,7 @@ function dr_enqueue(){
   wp_enqueue_style( 'dr_styles' );
 }
 
- function dr_register_conditional() {
+ function dr_typeform_scripts() {
 
   if ( is_page( 'contact-us' ) ) {
 
@@ -58,3 +58,4 @@ function dr_enqueue(){
  }
 
 add_action( 'wp_enqueue_scripts', 'dr_enqueue' );
+add_action( 'wp_footer', 'dr_typeform_scripts' );
