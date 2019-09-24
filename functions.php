@@ -36,6 +36,7 @@ function dr_enqueue(){
   if ( is_page( 'contact-us' ) ) {
 
     $uri = get_theme_file_uri();
+    
 
     wp_register_script( 'dr_typeform', 'https://embed.typeform.com/embed.js' , '', '', true );
     wp_register_script( 'dr_custom_js', $uri . '/js/dreamatic.js', '', '', true );
