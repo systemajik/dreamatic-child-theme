@@ -33,10 +33,15 @@ function dr_enqueue(){
 
  function dr_typeform_scripts() {
 
-  if ( is_page( 'contact-us' ) ) {
+  if ( is_page( 'contact-us' ) && wp_is_mobile() ) {
+
+    wp_register_script( 'dr_typeform_mobile', 'https://public-assets.typeform.com/confab/embed.js', '', '', true );
+    wp_enqueue_script( 'dr_typeform_mobile' );
+  
+  } else if ( is_page( 'contact-us' ) ) {
 
     wp_register_script( 'dr_typeform', 'https://embed.typeform.com/embed.js', '', '', true );
-     wp_enqueue_script( 'dr_typeform' );
+    wp_enqueue_script( 'dr_typeform' );
 
     ?>
     <script>
