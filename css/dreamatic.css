@@ -640,8 +640,8 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
     }
 
     .dr-typeform, .dr-typeform-inner {
-      padding:0;
-      border-radius:0;
+      padding:0!important;
+      border-radius:0!important;
     }
 
 }
