@@ -36,7 +36,9 @@ function dr_enqueue(){
   if ( is_page( 'contact-us' ) ) {
 
     wp_register_script( 'dr_typeform', 'https://embed.typeform.com/embed.js' , '', '', true );
+    wp_register_script( 'dr_custom_js', $uri . '/js/dreamatic.js', '', '', true );
     wp_enqueue_script( 'dr_typeform' );
+    wp_enqueue_script( 'dr_custom_js' );
   } 
  }
 
