@@ -34,6 +34,18 @@ function dr_enqueue(){
   wp_enqueue_script( 'dr_scripts' );
 }
 
+function dr_register_conditional() {
+  
+  $uri = get_theme_file_uri();
+
+  if ( is_page( 'contact-us' ) ) {
+    wp_register_script( 'dr_typeform', 'https://embed.typeform.com/embed.js', [],, true );
+    wp_enqueue_script( 'dr_typeform');
+  }
+}
+
+add_action( 'wp_enqueue_scripts', 'dr_register_conditional');
+
 //hooks
 
 add_action( 'wp_enqueue_scripts', 'dr_enqueue' );
