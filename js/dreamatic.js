@@ -1,12 +1,1 @@
-window.addEventListener("DOMContentLoaded", function() {
-  var el = document.getElementById("dr-contact-form");
-  
-  // When instantiating a widget embed, you must provide the DOM element
-  // that will contain your typeform, the URL of your typeform, and your
-  // desired embed settings
-  window.typeformEmbed.makeWidget(el, "https://admin.typeform.com/to/lSVbRL", {
-    hideFooter: true,
-    hideHeaders: true,
-    opacity: 0
-  });
-});
+(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
