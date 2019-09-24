@@ -527,6 +527,11 @@ p.dr-green::after, .fusion-text h2.dr-green::after {
       
     }
 
+    .typeform-container {
+      width:100%;
+      height:500px;
+    }
+
 /*responsive adjustments*/
 
 @media only screen and (max-width: 800px) {
